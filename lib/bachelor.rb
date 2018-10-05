@@ -29,7 +29,6 @@ def count_contestants_by_hometown(data, hometown)
     contestants_arr.find do |contestant|
       if contestant["hometown"] == hometown
         hometown_count += 1 
-      end
   end
 end
 
