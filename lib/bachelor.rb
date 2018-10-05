@@ -2,7 +2,6 @@ require 'pry'
 
 def get_first_name_of_season_winner(data,season)
  data[season].each do |contestant|
- binding_pry
     if contestant["status"] == "Winner"
       return contestant["name"].split(" ")[0]
     end
@@ -13,7 +12,8 @@ end
 
 
 def get_contestant_name(data, occupation)
-  # code here
+  data[occupation].each do |name|
+    
 end
 
 def count_contestants_by_hometown(data, hometown)
