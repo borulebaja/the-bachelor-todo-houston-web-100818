@@ -12,7 +12,7 @@ def get_first_name_of_season_winner(data,season)
       end
     end
   end
-  #winner
+  winner
 
 
 def get_contestant_name(data, occupation)
@@ -29,4 +29,4 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
-end
+
