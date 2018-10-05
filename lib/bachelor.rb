@@ -25,8 +25,8 @@ end
 
 def count_contestants_by_hometown(data, hometown)
    counter = 0
-  data.each do |season, actor|
-    actor.each do |index|
+  data.each do |season, contestants_arr|
+    contestants_arr.each do |index|
       if index["hometown"] == hometown
         counter += 1
       end
