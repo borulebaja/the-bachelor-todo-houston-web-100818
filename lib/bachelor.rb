@@ -1,7 +1,7 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
-  seasons.each do |data, season|
+  data.each do |data, arr_contestants|
 end
 
 def get_contestant_name(data, occupation)
