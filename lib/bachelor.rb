@@ -9,7 +9,7 @@ def get_first_name_of_season_winner(data, season)
           return contestant_hash[:name].split(' ').first
         end
       end
-      #return "No Winner"
+      return "No Winner"
     end
   end
 end
