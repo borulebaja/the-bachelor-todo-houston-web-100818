@@ -30,7 +30,7 @@ def count_contestants_by_hometown(data, hometown)
       if into_array[:hometown] == hometown
         counter += 1
       end 
-  end 
+   end 
  end 
  return counter 
 end
