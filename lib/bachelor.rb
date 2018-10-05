@@ -5,7 +5,16 @@ def get_first_name_of_season_winner(data, season)
     if season.to_s == season
       arr_contestants.each do |contestant_hash|
     
+    if contestant_hash[:status] == "Winner"
+          return contestant_hash[:name].split(' ').first
+        end
+      end
+      return "No Winner"
+    end
+  end
 end
+end
+
 
 def get_contestant_name(data, occupation)
   # code here
