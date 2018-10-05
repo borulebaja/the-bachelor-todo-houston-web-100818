@@ -55,4 +55,4 @@ def get_average_age_for_season(data, season)
   end
   return (counterAge / counter).round
 end	
-end 
+ 
